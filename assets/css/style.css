@@ -1,19 +1,29 @@
 .navbar-brand {
-  background-color: rgb(255, 193, 112);
   padding: 10px;
   border-radius: 5px;
-}
 
+  background: white;
+  border: 2px solid rgb(255, 193, 112);
+  border-radius: 8px;
+}
+.navbarwhtie {
+  background: white;
+}
 .nav-link {
-  background-color: rgb(255, 193, 112);
   padding: 10px;
   border-radius: 5px;
   margin: 5px;
-}
 
+  background: white;
+  border: 2px solid rgb(255, 193, 112);
+  border-radius: 8px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
 .nav-link:hover {
-  background-color: white;
-  color: rgb(255, 193, 112);
+  background-color: rgb(255, 193, 112);
+  color: white;
 }
 
 .display-3 {
