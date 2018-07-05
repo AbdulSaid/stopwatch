@@ -1,0 +1,97 @@
+.navbar-brand {
+  background-color: rgb(255, 193, 112);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-link {
+  background-color: rgb(255, 193, 112);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: rgb(255, 193, 112);
+}
+
+.display-3 {
+  color: rgb(255, 193, 112);
+}
+
+body {
+  /* Visual */
+  background: white;
+}
+
+#display {
+  font-family: monospace;
+  font-size: 120px;
+  color: rgb(255, 193, 112);
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background: white;
+}
+
+#wrapper {
+  /* Box-model */
+  width: 500px;
+
+  /* Positioning */
+  margin: 50px auto 0;
+}
+
+#buttons {
+  /* Typography */
+  text-align: center;
+}
+
+button {
+  width: 100px;
+
+  /* Box-model */
+  height: 50px;
+}
+
+#laps {
+  width: 100%;
+  height: 200px;
+
+  /* Positioning */
+  margin-top: 20px;
+
+  /* Box-model */
+  overflow: auto;
+
+  /* Typography */
+  text-align: center;
+
+  /* Visual */
+  background: white;
+  border: 2px solid rgb(255, 193, 112);
+  border-radius: 8px;
+}
+
+.buttons {
+  border: 2px solid rgb(255, 193, 112);
+  border-radius: 8px;
+  color: rgb(255, 193, 112);
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+.buttons:hover {
+  background-color: rgb(255, 193, 112);
+  color: white;
+}
+
+#laps {
+  color: rgb(255, 193, 112);
+}
